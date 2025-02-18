@@ -1,0 +1,183 @@
+@charset "UTF-8";
+#floatMenu {
+	position:absolute;
+	top:100px;
+	left:3%;
+	width:15%;
+	position: fixed;
+	bottom: 0;
+	/* right: 20px; */
+}
+#floatMenu ul {
+	margin-bottom:20px;
+	font-size:12px;
+	text-align:left;
+	overflow:hidden;
+}
+#floatMenu ul li a {
+	display:block;
+	border:1px solid #999;
+	background-color:#222;
+	border-left:6px solid #999;
+	text-decoration:none;
+	color:#ddd;
+	height:20px;
+	line-height:20px;
+	padding:3px 2px 2px 3px;
+	overflow:hidden;
+}
+#floatMenu ul li a:hover {
+	color:#fff;
+	background-color:#333333;
+	overflow:hidden;
+}
+#floatMenu ul.menu1 li a:hover {
+	border-color:#09f;
+}
+#floatMenu ul.menu2 li a:hover {
+	border-color:#9f0;
+}
+#floatMenu ul.menu3 li a:hover {
+	border-color:#f09;
+}
+a {
+	color: #FF0099;
+}
+#page-wrap {
+	border-right:1px solid #444;
+	border-left:1px solid #444;
+	width:900px;
+	margin:0 auto;
+	background-color:#222;
+	color:#ffffff;
+	font-family:"Lucida Grande", "Lucida Sans", "Trebuchet MS", verdana, sans-serif;
+}
+#page-wrap #header {
+	background-color:#444;
+	padding-top:20px;
+	padding-bottom:30px;
+}
+#page-wrap #header h1 {
+	margin-left:45px;
+	font-size:2.8em;
+	margin-bottom:10px;
+	line-height:0.9em;
+}
+#page-wrap #header h2 {
+	margin-left:45px;
+	font-size:1.7em;
+}
+#page-wrap #content {
+	background:url(/web/20230909030858im_/https://dev.gl-inet.com/static/docs/images/content_bg.jpg) no-repeat;
+	padding-top:85px;
+}
+#page-wrap #content h1 {
+	margin-left:45px;
+	font-size:2em;
+	margin-bottom:10px;
+}
+#page-wrap #content p {
+	margin-left:45px;
+	width:620px;
+	text-align:justify;
+	margin-bottom:25px;
+	line-height:1.5em;
+}
+#page-wrap #content p.first {
+	font-size:1.2em;
+	font-weight:bold;
+}
+#page-wrap #content p.longer {
+	width:810px;
+}
+#page-wrap #footer {
+	background-color:#444;
+}
+#page-wrap #footer p {
+	width:auto;
+	margin:auto;
+	text-align:center;
+	font-size:0.9em;
+	border:1px solid #000;
+	padding:15px 0;
+}
+#page-wrap #footer a:link {
+	color:#09f;
+}
+#page-wrap #footer a:visited {
+	text-decoration:none;
+}
+#page-wrap #footer a:hover {
+	color:#0f9;
+}
+#page-wrap #footer a:active {
+	color:#f90;
+}
+body{margin:0px;padding:0px;text-align:center;}
+a:link{color:blue;text-decoration:none;}
+a:visited{color:#06C;text-decoration:none;}
+a:hover{color:#000;text-decoration:underline;}
+em{color:green;font-style:normal;font-size:12px;}
+#cont{margin:0 21% auto;text-align:left;width:900px;}
+.tit{text-align:center;width:100%;min-width: 1220px;line-height:45px;background-color:#000;color:#fff;padding:25px 0 5px 0;margin-bottom:10px;}
+#titcont{width:900px;text-align:left;font-weight:bolder;font-size:20px;margin:0 auto;color:#eee;}
+#titcont .sma{margin-left:150px;font-size:12px;font-weight:normal;color:#ccc;}
+.fun{font-size:14px;margin-left:15px;border-bottom:1px solid #ccc;line-height:30px;width:900px;}
+.fun .le{display:inline-block;width:750px;}
+.fun .le b{font-size:12px;color:#999;margin-left:15px;}
+.fun .ri{display:inline-block;}
+.fun .says{margin-left:20px;font-size:16px;color:#666;}
+.info{border:1px solid #eee;line-height:26px;font-size:12px;padding:5px;margin-top:15px;width:900px;}
+#foot{padding-bottom:10px;font-size:12px;text-align:center;width:100%;margin:20px auto 0 auto;line-height:26px;border-top:1px dotted #ccc;padding-top:10px;letter-spacing:1px;background-color:#eee;}
+.lineface{font-weight:bolder;margin:15px 0 10px -15px;font-size:28px;}
+.red{color:red;}
+.fun .new:after{content:'(new)';color:red;font-weight:bolder;margin-left:10px;}
+.fun .update:after{content:'(update)';color:blue;font-weight:bolder;margin-left:10px;}
+pre.intersays{color:#000;line-height:14px;background-color:#eee;border:1px solid #ccc;margin-top:0px;padding:5px;}
+
+.wrapper {position: relative;}
+#input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+
+.menu { width:450px; margin:20px auto; }
+.menu dl dt { background:#F4FFF4 url('/web/20230909030858im_/https://dev.gl-inet.com/static/docs/img/bg_toggle_up.gif') no-repeat scroll 8px 14px; height:40px; width:450px; line-height:40px; font-size:12px; font-weight:bold; color:#006600; cursor:pointer; margin:8px 0; padding-left:25px; display:block; }
+.menu dl dt.current { background:#F4FFF4 url('/web/20230909030858im_/https://dev.gl-inet.com/static/docs/img/bg_toggle_down.gif') no-repeat scroll 8px 14px; }
+.menu dl dd { padding-left:10px; line-height:20px; }
+.menu dl dd h2 { font-size:15px; }
+.menu dl dd ul { padding-bottom:12px; }
+.menu dl dd ul li { list-style:decimal inside none; }
+/* #method-type-show {} */
+
+.layui-form-label {
+    width: 25%!important;
+}
+
+/* .layui-input {
+	width:70%;
+} */
+
+.layui-input-block {
+    margin-left: 25%!important;
+}
+
+/* .says div {padding-left: 3%;} */
+/* .layui-panel { font-size:22px; font-weight:bold; color:#006600; cursor:pointer; margin:0 auto; display:block;} */
+/*
+     FILE ARCHIVED ON 03:08:58 Sep 09, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:24:29 Feb 18, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.68
+  exclusion.robots: 0.052
+  exclusion.robots.policy: 0.022
+  esindex: 0.031
+  cdx.remote: 105.259
+  LoadShardBlock: 687.368 (3)
+  PetaboxLoader3.datanode: 374.083 (4)
+  PetaboxLoader3.resolve: 320.44 (2)
+  load_resource: 393.557
+*/
